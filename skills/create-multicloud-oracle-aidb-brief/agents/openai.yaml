@@ -1,4 +1,4 @@
 interface:
   display_name: "Multicloud Oracle DB Brief"
   short_description: "Build Redwood weekly Oracle multicloud decks"
-  default_prompt: "Use $create-multicloud-oracle-db-brief to create this week's official Redwood PowerPoint brief."
+  default_prompt: "Use $create-multicloud-oracle-aidb-brief to create this week's official Redwood PowerPoint brief."

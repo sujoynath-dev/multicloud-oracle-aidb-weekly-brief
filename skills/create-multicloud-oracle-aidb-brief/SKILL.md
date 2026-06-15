@@ -1,5 +1,5 @@
 ---
-name: create-multicloud-oracle-db-brief
+name: create-multicloud-oracle-aidb-brief
 description: Create, update, or schedule official-source weekly PowerPoint/PDF briefs about Oracle Database multicloud announcements and innovations across OCI, Google Cloud, AWS, and Azure. Use when Codex is asked to build a Redwood-themed weekly Oracle Database on Exadata or Autonomous AI Database deck, summarize hyperscaler announcements, add clickable source appendices, fix PowerPoint arrows or links, or automate emailing the brief on a weekly Melbourne-time schedule.
 ---
 

@@ -18,7 +18,7 @@ The current generated brief is titled **Weekly Multicloud Announcements and Inno
   Local Outlook/SMTP mail connector used by the weekly automation.
 - `tools/mail_config.example.env`  
   Optional SMTP fallback configuration template.
-- `skills/create-multicloud-oracle-db-brief/`  
+- `skills/create-multicloud-oracle-aidb-brief/`  
   Reusable Codex skill and detailed prompt for recreating or scheduling the brief workflow.
 
 ## Workflow Summary
@@ -39,19 +39,19 @@ The workflow is designed to:
 The reusable skill is stored at:
 
 ```text
-skills/create-multicloud-oracle-db-brief/
+skills/create-multicloud-oracle-aidb-brief/
 ```
 
 To install it into a Codex environment, copy that folder into:
 
 ```text
-~/.codex/skills/create-multicloud-oracle-db-brief
+~/.codex/skills/create-multicloud-oracle-aidb-brief
 ```
 
 Then invoke it with:
 
 ```text
-Use $create-multicloud-oracle-db-brief to create this week's official Redwood PowerPoint brief.
+Use $create-multicloud-oracle-aidb-brief to create this week's official Redwood PowerPoint brief.
 ```
 
 ## Sending The Brief
