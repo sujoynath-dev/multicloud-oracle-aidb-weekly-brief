@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+.env
+*.local.env
+outputs/**/.DS_Store
+outputs/**/node_modules/
+outputs/**/preview/slide-11.png
+outputs/**/layout/final/slide-11.layout.json

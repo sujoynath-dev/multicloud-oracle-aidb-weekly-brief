@@ -1,0 +1,41 @@
+Thesis:
+The week is quiet across Azure and Google Cloud but material on AWS: Autonomous Database Serverless on Oracle Database@AWS lowers the entry point for multicloud Oracle AI and data patterns.
+
+Audience:
+Oracle multicloud architects, sales engineers, product strategists, and executive stakeholders tracking Oracle Database on hyperscaler platforms.
+
+One-line arc:
+Start with the official weekly signal, show what changed by cloud, translate it into platform implications, then land on four practical architecture patterns.
+
+Slide list:
+1. Weekly Multicloud Announcements and Innovations
+   Claim: AWS has the strongest weekly change; the broader story is platform convergence around Oracle data and hyperscaler AI.
+   Proof object: Logo strip plus three-bullet executive summary.
+   Sources: Official report source list and Redwood reference.
+2. The weekly signal is narrow but strategically important.
+   Proof object: Provider announcement matrix.
+   Sources: AWS document history, Google release notes, Oracle Azure docs, OCI release notes.
+3. AWS adds the clearest new adoption path.
+   Proof object: Before/after service model for ADB-S on Oracle Database@AWS.
+   Sources: AWS document history and Oracle Database@AWS docs.
+4. Google Cloud shows a recent expansion pattern, not a current-week spike.
+   Proof object: May watchlist timeline.
+   Sources: Google Cloud Oracle Database@Google Cloud release notes.
+5. Azure remains a broad regional landing zone for Oracle AI Database.
+   Proof object: Azure deployment map with delegated subnet and Microsoft Foundry control plane.
+   Sources: Oracle AI Database@Azure docs and Microsoft Foundry docs.
+6. The multicloud architecture is becoming a data-plus-AI placement choice.
+   Proof object: Cross-cloud service placement map.
+   Sources: Oracle Database@AWS, Oracle Database@Google Cloud, Oracle AI Database@Azure docs.
+7. Autonomous AI Database can anchor governed RAG without moving sensitive data.
+   Proof object: Governed RAG flow.
+   Sources: Oracle AI Vector Search, Bedrock, Gemini Enterprise, Microsoft Foundry docs.
+8. Four architecture moves are ready to evaluate.
+   Proof object: Four-pattern board.
+   Sources: Report architecture section.
+9. Governance, security, and DR should be designed before model routing.
+   Proof object: Control matrix.
+   Sources: AWS KMS/Data Guard OCI release notes, provider service docs.
+10. Appendix: grouped clickable official source topics.
+   Proof object: One-slide source index grouped by OCI, GCP, AWS, and Azure, with topic labels linked to official URLs.
+   Sources: All official source URLs.

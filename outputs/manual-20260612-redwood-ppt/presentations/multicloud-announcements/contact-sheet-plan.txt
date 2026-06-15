@@ -1,0 +1,16 @@
+Slide contact-sheet plan:
+1. Cover: large editorial claim, top logo strip, right summary rail.
+2. Matrix: provider rows with weekly status markers.
+3. Before/after: AWS ADB-S path and impact ladder.
+4. Timeline: Google recent enhancements.
+5. Architecture lane: Azure app/network/database/Foundry flow.
+6. Placement map: three hyperscaler lanes plus Oracle data plane.
+7. Governed RAG flow: data, vector, model, agent, control loops.
+8. Four pattern board: AWS, Google, Azure, cross-cloud moves.
+9. Control matrix: security, DR, governance, operations.
+10. Source appendix: one-slide grouped clickable official source topics.
+
+Macro-layout diversity:
+- 10 slides use 8 layout families.
+- No three consecutive slides share the same layout.
+- No repeated decorative card grid cadence.

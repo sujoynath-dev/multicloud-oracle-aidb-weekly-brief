@@ -1,0 +1,1506 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/2ut6hm",
+    "id": "2ut6hm",
+    "slide": 7,
+    "layoutId": "203d1ad8-03d7-4851-a6e0-d0f95ccfee2f",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "22dc1929-0e91-414d-9214-eb41fcccaa4c",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "203d1ad8-03d7-4851-a6e0-d0f95ccfee2f",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "22dc1929-0e91-414d-9214-eb41fcccaa4c",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "22dc1929-0e91-414d-9214-eb41fcccaa4c",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1w7mp0b",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBF9F8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#4B4540",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7mp0bi9",
+      "id": "3",
+      "bbox": [
+        64,
+        674,
+        1040,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D7D0C8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7adsji5s",
+      "id": "4",
+      "bbox": [
+        64,
+        686,
+        820,
+        16
+      ],
+      "geometry": "rect",
+      "text": "Oracle AI Vector Search; Bedrock; Gemini Enterprise; Microsoft Foundry docs",
+      "textPreview": "Oracle AI Vector Search; Bedrock; Gemini Enterprise; Microsoft Foundry docs",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Aptos",
+        "color": "#6F625B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Oracle AI Vector Search; Bedrock; Gemini Enterprise; Microsoft Foundry docs"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Oracle AI Vector Search; Bedrock; Gemini Enterprise; Microsoft Foundry docs",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "typeface": "Aptos",
+            "color": "#6F625B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Oracle AI Vector Search; Bedrock; Gemini Enterprise; Microsoft Foundry docs",
+              "fontSize": 10,
+              "typeface": "Aptos",
+              "color": "#6F625B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epkzupwb",
+      "id": "5",
+      "bbox": [
+        1140,
+        686,
+        76,
+        16
+      ],
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Aptos",
+        "color": "#6F625B",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "typeface": "Aptos",
+            "color": "#6F625B",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "fontSize": 10,
+              "typeface": "Aptos",
+              "color": "#6F625B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pg3ex0nu",
+      "id": "6",
+      "bbox": [
+        64,
+        54,
+        8,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#8F3328",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wval87ed",
+      "id": "7",
+      "bbox": [
+        82,
+        52,
+        520,
+        16
+      ],
+      "geometry": "rect",
+      "text": "GOVERNED RAG",
+      "textPreview": "GOVERNED RAG",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#6F625B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GOVERNED RAG"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GOVERNED RAG",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#6F625B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GOVERNED RAG",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#6F625B",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/36hcrmhk",
+      "id": "8",
+      "bbox": [
+        64,
+        82,
+        980,
+        98
+      ],
+      "geometry": "rect",
+      "text": "Autonomous AI Database can anchor RAG while hyperscaler AI handles reasoning and workflow.",
+      "textPreview": "Autonomous AI Database can anchor RAG while hyperscaler AI handles reasoning and workflow.",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Arial",
+        "color": "#161513",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Autonomous AI Database can anchor RAG while"
+          },
+          {
+            "index": 2,
+            "text": "hyperscaler AI handles reasoning and workflow."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Autonomous AI Database can anchor RAG while hyperscaler AI handles reasoning and workflow.",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Arial",
+            "color": "#161513",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Autonomous AI Database can anchor RAG while hyperscaler AI handles reasoning and workflow.",
+              "fontSize": 36,
+              "typeface": "Arial",
+              "color": "#161513",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/eloj2t83",
+      "id": "9",
+      "bbox": [
+        82,
+        228,
+        220,
+        120
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D0C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wra5gbq1",
+      "id": "10",
+      "bbox": [
+        82,
+        228,
+        220,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#4E7C78",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lc7u54zi",
+      "id": "11",
+      "bbox": [
+        96,
+        242,
+        192,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Oracle operational data",
+      "textPreview": "Oracle operational data",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#161513",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Oracle operational data"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Oracle operational data",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#161513",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Oracle operational data",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#161513",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/eloj2t83",
+      "id": "12",
+      "bbox": [
+        96,
+        276,
+        192,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Transactions, documents, metadata, policies, lineage, and entitlements stay governed in Oracle.",
+      "textPreview": "Transactions, documents, metadata, policies, lineage, and entitlements stay governed in Oracle.",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12.51,
+        "typeface": "Aptos",
+        "color": "#6F625B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Transactions, documents,"
+          },
+          {
+            "index": 2,
+            "text": "metadata, policies, lineage, and"
+          },
+          {
+            "index": 3,
+            "text": "entitlements stay governed in"
+          },
+          {
+            "index": 4,
+            "text": "Oracle."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Transactions, documents, metadata, policies, lineage, and entitlements stay governed in Oracle.",
+          "resolvedTextStyle": {
+            "fontSize": 12.51,
+            "typeface": "Aptos",
+            "color": "#6F625B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Transactions, documents, metadata, policies, lineage, and entitlements stay governed in Oracle.",
+              "fontSize": 12.51,
+              "typeface": "Aptos",
+              "color": "#6F625B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/36hcrmhk",
+      "id": "13",
+      "bbox": [
+        312,
+        284,
+        72,
+        10
+      ],
+      "geometry": "rightArrow",
+      "fillColor": "#4E7C78",
+      "lineColor": "#4E7C78",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfyxobm5",
+      "id": "14",
+      "bbox": [
+        400,
+        228,
+        220,
+        120
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEF5F5",
+      "lineColor": "#D7D0C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0rqd4vm",
+      "id": "15",
+      "bbox": [
+        400,
+        228,
+        220,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#4E7C78",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8bat47",
+      "id": "16",
+      "bbox": [
+        414,
+        242,
+        192,
+        32
+      ],
+      "geometry": "rect",
+      "text": "AI Vector Search",
+      "textPreview": "AI Vector Search",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#161513",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI Vector Search"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI Vector Search",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#161513",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI Vector Search",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#161513",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7u54zido",
+      "id": "17",
+      "bbox": [
+        414,
+        276,
+        192,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Embeddings stored beside business data; semantic search runs close to the governed records.",
+      "textPreview": "Embeddings stored beside business data; semantic search runs close to the governed records.",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12.51,
+        "typeface": "Aptos",
+        "color": "#6F625B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Embeddings stored beside"
+          },
+          {
+            "index": 2,
+            "text": "business data; semantic search"
+          },
+          {
+            "index": 3,
+            "text": "runs close to the governed"
+          },
+          {
+            "index": 4,
+            "text": "records."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Embeddings stored beside business data; semantic search runs close to the governed records.",
+          "resolvedTextStyle": {
+            "fontSize": 12.51,
+            "typeface": "Aptos",
+            "color": "#6F625B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Embeddings stored beside business data; semantic search runs close to the governed records.",
+              "fontSize": 12.51,
+              "typeface": "Aptos",
+              "color": "#6F625B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7mp0bi9",
+      "id": "18",
+      "bbox": [
+        630,
+        284,
+        72,
+        10
+      ],
+      "geometry": "rightArrow",
+      "fillColor": "#6F625B",
+      "lineColor": "#6F625B",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "19",
+      "bbox": [
+        718,
+        228,
+        220,
+        120
+      ],
+      "geometry": "rect",
+      "fillColor": "#F6F2EE",
+      "lineColor": "#D7D0C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9w3m94fu",
+      "id": "20",
+      "bbox": [
+        718,
+        228,
+        220,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#C74634",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kb6xkf6d",
+      "id": "21",
+      "bbox": [
+        732,
+        242,
+        192,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Model platform",
+      "textPreview": "Model platform",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#161513",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Model platform"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Model platform",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#161513",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Model platform",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#161513",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqd4vmtw",
+      "id": "22",
+      "bbox": [
+        732,
+        276,
+        192,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Bedrock, Gemini Enterprise, Microsoft Foundry, or OCI Generative AI selected by use case.",
+      "textPreview": "Bedrock, Gemini Enterprise, Microsoft Foundry, or OCI Generative AI selected by use case.",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12.51,
+        "typeface": "Aptos",
+        "color": "#6F625B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Bedrock, Gemini Enterprise,"
+          },
+          {
+            "index": 2,
+            "text": "Microsoft Foundry, or OCI"
+          },
+          {
+            "index": 3,
+            "text": "Generative AI selected by use"
+          },
+          {
+            "index": 4,
+            "text": "case."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Bedrock, Gemini Enterprise, Microsoft Foundry, or OCI Generative AI selected by use case.",
+          "resolvedTextStyle": {
+            "fontSize": 12.51,
+            "typeface": "Aptos",
+            "color": "#6F625B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Bedrock, Gemini Enterprise, Microsoft Foundry, or OCI Generative AI selected by use case.",
+              "fontSize": 12.51,
+              "typeface": "Aptos",
+              "color": "#6F625B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/25kb6xkf",
+      "id": "23",
+      "bbox": [
+        948,
+        284,
+        72,
+        10
+      ],
+      "geometry": "rightArrow",
+      "fillColor": "#6F625B",
+      "lineColor": "#6F625B",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9knih4by",
+      "id": "24",
+      "bbox": [
+        1036,
+        228,
+        160,
+        120
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D0C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzupwb2h",
+      "id": "25",
+      "bbox": [
+        1036,
+        228,
+        160,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#F3B15B",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/re1w7mp0",
+      "id": "26",
+      "bbox": [
+        1050,
+        242,
+        132,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Agent action",
+      "textPreview": "Agent action",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#161513",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Agent action"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Agent action",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#161513",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Agent action",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#161513",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2t83itgf",
+      "id": "27",
+      "bbox": [
+        1050,
+        276,
+        132,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Answer, summarize, route, write back, or escalate with controls.",
+      "textPreview": "Answer, summarize, route, write back, or escalate with controls.",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12.51,
+        "typeface": "Aptos",
+        "color": "#6F625B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Answer, summarize,"
+          },
+          {
+            "index": 2,
+            "text": "route, write back, or"
+          },
+          {
+            "index": 3,
+            "text": "escalate with controls."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Answer, summarize, route, write back, or escalate with controls.",
+          "resolvedTextStyle": {
+            "fontSize": 12.51,
+            "typeface": "Aptos",
+            "color": "#6F625B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Answer, summarize, route, write back, or escalate with controls.",
+              "fontSize": 12.51,
+              "typeface": "Aptos",
+              "color": "#6F625B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "28",
+      "bbox": [
+        112,
+        427,
+        5,
+        5
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#4E7C78",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "29",
+      "bbox": [
+        128,
+        420,
+        470,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Use Oracle as the governed retrieval and data-quality boundary.",
+      "textPreview": "Use Oracle as the governed retrieval and data-quality boundary.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#312D2A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Use Oracle as the governed retrieval and data-quality boundary."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Use Oracle as the governed retrieval and data-quality boundary.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#312D2A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Use Oracle as the governed retrieval and data-quality boundary.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#312D2A"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/upwb2hwf",
+      "id": "30",
+      "bbox": [
+        112,
+        489,
+        5,
+        5
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#C74634",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nap4r65w",
+      "id": "31",
+      "bbox": [
+        128,
+        482,
+        470,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Expose only approved views, APIs, summaries, or vector search results to the model layer.",
+      "textPreview": "Expose only approved views, APIs, summaries, or vector search results to the model layer.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#312D2A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Expose only approved views, APIs, summaries, or vector search"
+          },
+          {
+            "index": 2,
+            "text": "results to the model layer."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Expose only approved views, APIs, summaries, or vector search results to the model layer.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#312D2A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Expose only approved views, APIs, summaries, or vector search results to the model layer.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#312D2A"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cvixczed",
+      "id": "32",
+      "bbox": [
+        664,
+        427,
+        5,
+        5
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#F3B15B",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5gbq1ory",
+      "id": "33",
+      "bbox": [
+        680,
+        420,
+        470,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Choose the AI platform by domain fit, model governance, latency, cost, and enterprise channel.",
+      "textPreview": "Choose the AI platform by domain fit, model governance, latency, cost, and enterprise channel.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#312D2A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Choose the AI platform by domain fit, model governance, latency,"
+          },
+          {
+            "index": 2,
+            "text": "cost, and enterprise channel."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Choose the AI platform by domain fit, model governance, latency, cost, and enterprise channel.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#312D2A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Choose the AI platform by domain fit, model governance, latency, cost, and enterprise channel.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#312D2A"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udg7adsj",
+      "id": "34",
+      "bbox": [
+        664,
+        509,
+        5,
+        5
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#D8EAF0",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nyd0z610",
+      "id": "35",
+      "bbox": [
+        680,
+        502,
+        470,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Log prompts, retrieval context, output, and user action for auditability.",
+      "textPreview": "Log prompts, retrieval context, output, and user action for auditability.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#312D2A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Log prompts, retrieval context, output, and user action for"
+          },
+          {
+            "index": 2,
+            "text": "auditability."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Log prompts, retrieval context, output, and user action for auditability.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#312D2A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Log prompts, retrieval context, output, and user action for auditability.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#312D2A"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

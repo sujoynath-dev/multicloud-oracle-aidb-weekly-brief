@@ -1,0 +1,58 @@
+Slide size: 1280x720
+
+Official Redwood reference:
+- Rendered official page shows background rgb(251,249,248), text rgb(22,21,19), warm editorial surfaces, quiet Oracle red accents, teal diagram cards, soft grey panel backgrounds, and generous spacing.
+
+Background system:
+- Main deck background: #fbf9f8.
+- Alternate section band: #f1eeea.
+- Dark final/source slides only when needed: #312d2a.
+
+Typography:
+- Use Arial/Helvetica fallback to keep export stable.
+- Cover claim: 56-64px, weight 700, color #161513.
+- Slide claim: 32-40px, weight 700, color #161513.
+- Kicker: 11px uppercase, letter-spaced, color #6f625b.
+- Body: 18-22px, color #312d2a.
+- Labels: 12-15px, color #5b5550.
+- Source/footer: 9-10px, color #766f68.
+
+Color palette:
+- Paper: #fbf9f8.
+- Warm panel: #efebe6.
+- Ink: #161513.
+- Charcoal: #312d2a.
+- Muted text: #6f625b.
+- Oracle red accent: #c74634, used sparingly.
+- Redwood teal: #4e7c78, used for diagrams and service nodes.
+- Soft blue: #d8eaf0, used for low-intensity callouts.
+- Amber: #f3b15b, used only for AWS highlight marks.
+
+Chart and diagram grammar:
+- Use editorial proof objects: matrices, timelines, swimlanes, and architecture flows.
+- Prefer thin rules, labels attached to nodes, and minimal filled cards.
+- Use red only for the active weekly signal or slide-level emphasis.
+- Use teal for database/data plane nodes.
+- Use muted grey for provider-native platforms.
+
+Logo policy:
+- Use only captured official rendered logo/header assets from provider websites.
+- Do not redraw or approximate logos.
+- Keep logos in a quiet cover strip; do not overuse them on every slide.
+
+Footer/source grammar:
+- Each slide includes a small footer with "Official sources only" and an abbreviated source tag.
+- Appendix slide lists source URLs.
+
+Layout families:
+- Cover with logo strip and summary rail.
+- Matrix table with signal status.
+- Before/after service model.
+- Timeline.
+- Architecture lane map.
+- Pattern board.
+- Governance matrix.
+- Source appendix.
+
+Banned motifs:
+- Heavy gradients, decorative blobs, fake cloud icons, pseudo-logos, dense PDF-like paragraphs, repeated four-card grids on consecutive slides.

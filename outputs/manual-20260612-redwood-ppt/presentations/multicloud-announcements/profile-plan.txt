@@ -1,0 +1,33 @@
+Task mode: create
+Primary deck-profile: engineering-platform
+Secondary gates: strategy-leadership, appendix-heavy source discipline
+
+Required proof objects:
+- Official weekly announcement matrix by provider.
+- Recent watchlist timeline.
+- Multicloud service placement map.
+- AI architecture patterns using Oracle Autonomous AI Database or Exadata with Bedrock, Gemini Enterprise, Microsoft Foundry, and OCI Generative AI.
+- Governance and DR control model.
+
+Source requirements:
+- Use the content already researched for the generated PDF brief.
+- Use only official Oracle, AWS, Google Cloud, and Microsoft documentation sources already listed in the PDF.
+- Use the official Redwood page supplied by the user as the visual reference.
+
+Brand authenticity constraints:
+- The deck uses official rendered provider logo/header assets captured from official pages:
+  - Oracle wordmark from https://www.oracle.com/cloud/
+  - Google Cloud logo from https://cloud.google.com/
+  - AWS header mark from https://aws.amazon.com/
+  - Microsoft/Azure official header lockup from https://azure.microsoft.com/
+- Do not draw or approximate replacement provider logos.
+- Use Redwood color, spacing, and layout cues from https://redwood.oracle.com/?pageId=CORE17B41D21FF4244A3BBB82A4D99AE610C&shell=getting-started
+
+Profile-specific QA gates:
+- Architecture flows must preserve containment and dependency direction.
+- Technical labels must name real services, not generic layers.
+- Tables and matrices must remain readable after render.
+- Every non-appendix slide needs a claim, proof object, and source note.
+
+Known missing inputs:
+- No official Oracle PowerPoint template file was supplied, so this is a Redwood-inspired editable deck, not an exact template-following clone.

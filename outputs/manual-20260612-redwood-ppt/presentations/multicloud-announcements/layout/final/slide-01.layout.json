@@ -1,0 +1,1055 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/8za5da",
+    "id": "8za5da",
+    "slide": 1,
+    "layoutId": "203d1ad8-03d7-4851-a6e0-d0f95ccfee2f",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "22dc1929-0e91-414d-9214-eb41fcccaa4c",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "203d1ad8-03d7-4851-a6e0-d0f95ccfee2f",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "22dc1929-0e91-414d-9214-eb41fcccaa4c",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "22dc1929-0e91-414d-9214-eb41fcccaa4c",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za1gvy90",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBF9F8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#4B4540",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "3",
+      "bbox": [
+        64,
+        56,
+        8,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#8F3328",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "4",
+      "bbox": [
+        82,
+        54,
+        520,
+        16
+      ],
+      "geometry": "rect",
+      "text": "OFFICIAL-SOURCE WEEKLY BRIEF",
+      "textPreview": "OFFICIAL-SOURCE WEEKLY BRIEF",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11,
+        "typeface": "Aptos",
+        "color": "#6F625B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OFFICIAL-SOURCE WEEKLY BRIEF"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OFFICIAL-SOURCE WEEKLY BRIEF",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "typeface": "Aptos",
+            "color": "#6F625B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OFFICIAL-SOURCE WEEKLY BRIEF",
+              "fontSize": 11,
+              "typeface": "Aptos",
+              "color": "#6F625B",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidonyd0",
+      "id": "5",
+      "bbox": [
+        64,
+        92,
+        760,
+        98
+      ],
+      "geometry": "rect",
+      "text": "Weekly Multicloud Announcements and Innovations",
+      "textPreview": "Weekly Multicloud Announcements and Innovations",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Arial",
+        "color": "#161513",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Weekly Multicloud Announcements and"
+          },
+          {
+            "index": 2,
+            "text": "Innovations"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Weekly Multicloud Announcements and Innovations",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Arial",
+            "color": "#161513",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Weekly Multicloud Announcements and Innovations",
+              "fontSize": 36,
+              "typeface": "Arial",
+              "color": "#161513",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "6",
+      "bbox": [
+        64,
+        250,
+        720,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Oracle Database on Exadata and Autonomous AI Database across Oracle Cloud, AWS, Google Cloud, and Azure",
+      "textPreview": "Oracle Database on Exadata and Autonomous AI Database across Oracle Cloud, AWS, Google Cloud, and Azure",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Arial",
+        "color": "#6F625B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Oracle Database on Exadata and Autonomous AI Database across Oracle Cloud, AWS,"
+          },
+          {
+            "index": 2,
+            "text": "Google Cloud, and Azure"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Oracle Database on Exadata and Autonomous AI Database across Oracle Cloud, AWS, Google Cloud, and Azure",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Arial",
+            "color": "#6F625B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Oracle Database on Exadata and Autonomous AI Database across Oracle Cloud, AWS, Google Cloud, and Azure",
+              "fontSize": 17,
+              "typeface": "Arial",
+              "color": "#6F625B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hoza1gvy",
+      "id": "7",
+      "bbox": [
+        64,
+        336,
+        184,
+        74
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D0C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/bulwval8",
+      "id": "8",
+      "bbox": [
+        82,
+        356,
+        148,
+        34
+      ],
+      "alt": "Oracle",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "f9b317c0-69ad-430c-80de-f50e7e682d35",
+        "contentType": "image/png",
+        "byteLength": 2798
+      }
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m94fu18",
+      "id": "9",
+      "bbox": [
+        262,
+        336,
+        184,
+        74
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D0C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/0fepkzup",
+      "id": "10",
+      "bbox": [
+        280,
+        356,
+        148,
+        34
+      ],
+      "alt": "Google Cloud",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "c3161785-3ad1-4c26-ac45-44c25f2d7936",
+        "contentType": "image/png",
+        "byteLength": 3982
+      }
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "11",
+      "bbox": [
+        460,
+        336,
+        184,
+        74
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D0C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/i9s36hcr",
+      "id": "12",
+      "bbox": [
+        478,
+        356,
+        148,
+        34
+      ],
+      "alt": "AWS",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "cdc17a2d-af97-4131-9f51-4ae60f8966bb",
+        "contentType": "image/png",
+        "byteLength": 2811
+      }
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "13",
+      "bbox": [
+        658,
+        336,
+        184,
+        74
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D0C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 14,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/032lszqt",
+      "id": "14",
+      "bbox": [
+        676,
+        356,
+        148,
+        34
+      ],
+      "alt": "Microsoft Azure",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "15b3b7c3-5f25-4ea5-9d71-a89b35f3dbe5",
+        "contentType": "image/png",
+        "byteLength": 11041
+      }
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "15",
+      "bbox": [
+        920,
+        92,
+        230,
+        96
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D0C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "16",
+      "bbox": [
+        938,
+        106,
+        194,
+        30
+      ],
+      "geometry": "rect",
+      "text": "6-12 Jun",
+      "textPreview": "6-12 Jun",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Aptos",
+        "color": "#312D2A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "6-12 Jun"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "6-12 Jun",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Aptos",
+            "color": "#312D2A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "6-12 Jun",
+              "fontSize": 28,
+              "typeface": "Aptos",
+              "color": "#312D2A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "17",
+      "bbox": [
+        938,
+        142,
+        194,
+        32
+      ],
+      "geometry": "rect",
+      "text": "coverage window, Australia/Melbourne",
+      "textPreview": "coverage window, Australia/Melbourne",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#6F625B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "coverage window,"
+          },
+          {
+            "index": 2,
+            "text": "Australia/Melbourne"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "coverage window, Australia/Melbourne",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#6F625B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "coverage window, Australia/Melbourne",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#6F625B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "18",
+      "bbox": [
+        920,
+        210,
+        230,
+        96
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D7D0C8",
+      "lineWidth": 1
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adsji5sn",
+      "id": "19",
+      "bbox": [
+        938,
+        224,
+        194,
+        30
+      ],
+      "geometry": "rect",
+      "text": "AWS",
+      "textPreview": "AWS",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Aptos",
+        "color": "#8F3328",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AWS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AWS",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Aptos",
+            "color": "#8F3328",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AWS",
+              "fontSize": 28,
+              "typeface": "Aptos",
+              "color": "#8F3328",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/idonyd0z",
+      "id": "20",
+      "bbox": [
+        938,
+        260,
+        194,
+        32
+      ],
+      "geometry": "rect",
+      "text": "strongest weekly signal: ADB-S in Oracle Database@AWS",
+      "textPreview": "strongest weekly signal: ADB-S in Oracle Database@AWS",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#6F625B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "strongest weekly signal: ADB-S in"
+          },
+          {
+            "index": 2,
+            "text": "Oracle Database@AWS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "strongest weekly signal: ADB-S in Oracle Database@AWS",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#6F625B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "strongest weekly signal: ADB-S in Oracle Database@AWS",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#6F625B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byhgn29g",
+      "id": "21",
+      "bbox": [
+        920,
+        359,
+        5,
+        5
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#C74634",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "22",
+      "bbox": [
+        936,
+        352,
+        245,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Google Cloud and Azure had no new dated Oracle Database items inside the week.",
+      "textPreview": "Google Cloud and Azure had no new dated Oracle Database items inside the week.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#312D2A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Google Cloud and Azure had no"
+          },
+          {
+            "index": 2,
+            "text": "new dated Oracle Database items"
+          },
+          {
+            "index": 3,
+            "text": "inside the week."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Google Cloud and Azure had no new dated Oracle Database items inside the week.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#312D2A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Google Cloud and Azure had no new dated Oracle Database items inside the week.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#312D2A"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t47y1kre",
+      "id": "23",
+      "bbox": [
+        920,
+        437,
+        5,
+        5
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#4E7C78",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "24",
+      "bbox": [
+        936,
+        430,
+        245,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Recent watchlist still matters: GoldenGate, Autonomous Data Guard, KMS and DR.",
+      "textPreview": "Recent watchlist still matters: GoldenGate, Autonomous Data Guard, KMS and DR.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#312D2A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Recent watchlist still matters:"
+          },
+          {
+            "index": 2,
+            "text": "GoldenGate, Autonomous Data"
+          },
+          {
+            "index": 3,
+            "text": "Guard, KMS and DR."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Recent watchlist still matters: GoldenGate, Autonomous Data Guard, KMS and DR.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#312D2A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Recent watchlist still matters: GoldenGate, Autonomous Data Guard, KMS and DR.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#312D2A"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "25",
+      "bbox": [
+        920,
+        533,
+        5,
+        5
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#F3B15B",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "26",
+      "bbox": [
+        936,
+        526,
+        245,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Deck theme follows the official Redwood reference page supplied by the user.",
+      "textPreview": "Deck theme follows the official Redwood reference page supplied by the user.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#312D2A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Deck theme follows the official"
+          },
+          {
+            "index": 2,
+            "text": "Redwood reference page"
+          },
+          {
+            "index": 3,
+            "text": "supplied by the user."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Deck theme follows the official Redwood reference page supplied by the user.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#312D2A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Deck theme follows the official Redwood reference page supplied by the user.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#312D2A"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
