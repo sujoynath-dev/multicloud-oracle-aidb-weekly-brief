@@ -1,38 +1,59 @@
-# Weekly Multicloud Oracle Database Brief
+# Weekly Multicloud Oracle AI Database Brief
 
-Reusable source and artifacts for a weekly official-source brief covering Oracle Database multicloud announcements and innovations across OCI, Google Cloud, AWS, and Azure.
+Reusable source, generated artifacts, and automation helpers for a weekly official-source executive brief covering Oracle Database multicloud announcements and innovations across OCI, Google Cloud, AWS, and Azure.
 
-The current generated brief is titled **Weekly Multicloud Announcements and Innovations** and focuses on Oracle Database on Exadata and Autonomous AI Database, plus architecture ideas that combine Oracle data platforms with AI services such as Gemini Enterprise, Amazon Bedrock, Microsoft Foundry, and OCI Generative AI.
+The current brief is titled **Weekly Multicloud Announcements and Innovations**. It focuses on Oracle Database on Exadata and Autonomous AI Database, then turns those announcements into architecture ideas that combine Oracle data platforms with AI offerings such as Gemini Enterprise, Amazon Bedrock, Microsoft Foundry, and OCI Generative AI.
 
-## Repository Contents
+## Current Deliverables
 
-- `weekly-multicloud-announcements-and-innovations-redwood.pptx`  
-  Final editable Redwood-themed PowerPoint deck.
-- `weekly_multicloud_oracle_db_ai_brief_2026-06-12.pdf`  
-  Earlier PDF brief artifact.
-- `weekly_multicloud_oracle_db_ai_brief_2026-06-12.html`  
-  HTML source for the earlier PDF brief.
-- `outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/`  
-  PowerPoint source workspace with slide modules, design notes, official provider logo assets, rendered previews, and build manifest.
-- `tools/send_weekly_brief_email.py`  
-  Local Outlook/SMTP mail connector used by the weekly automation.
-- `tools/mail_config.example.env`  
-  Optional SMTP fallback configuration template.
-- `skills/create-multicloud-oracle-aidb-brief/`  
-  Reusable Codex skill and detailed prompt for recreating or scheduling the brief workflow.
+- `weekly-multicloud-announcements-and-innovations-2026-06-15-redwood.pptx`: latest shareable Redwood-themed PowerPoint deck at the repository root.
+- `outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/output/weekly-multicloud-announcements-and-innovations-2026-06-15-redwood.pptx`: generated deck copy inside the PowerPoint source workspace.
+- `outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/preview/contact-sheet.png`: rendered contact sheet used for visual QA.
+- `outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/`: editable deck workspace with slide modules, theme helpers, layout JSON, official provider assets, previews, build manifest, and source notes.
+
+The older root-level HTML/PDF brief artifacts and the undated root PPTX have been removed. The PowerPoint deck is now the primary output format.
+
+## Repository Layout
+
+- `outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/slides/`: slide source modules for the 10-slide deck.
+- `outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/assets/`: official provider logo/header captures and Redwood visual references.
+- `outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/build-deck.mjs`: local Codex Presentations build helper for regenerating previews, layout files, manifest, and PPTX output.
+- `outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/patch-pptx-hyperlinks.py`: post-build hyperlink patcher for the one-slide source appendix.
+- `tools/send_weekly_brief_email.py`: real mail connector. It supports Microsoft Outlook for macOS via AppleScript and SMTP fallback.
+- `tools/mail_config.example.env`: SMTP fallback configuration template. Do not commit real credentials.
+- `skills/create-multicloud-oracle-aidb-brief/`: reusable Codex skill and detailed prompt for recreating, updating, scheduling, or emailing the weekly brief.
 
 ## Workflow Summary
 
-The workflow is designed to:
-
 1. Research only official Oracle, AWS, Google Cloud, and Microsoft sources.
 2. Separate current-week announcements from recent watchlist items.
-3. Build an Oracle Redwood-style PowerPoint deck.
-4. Include provider logos sourced from official provider pages.
-5. Use robust editable PowerPoint shapes for diagrams and arrows.
+3. Build an editable Oracle Redwood-style PowerPoint deck.
+4. Use provider logos and visual references captured from official pages.
+5. Keep diagrams and arrows as robust editable PowerPoint shapes.
 6. Add a one-slide appendix grouped by OCI, GCP, AWS, and Azure.
 7. Link each appendix topic label directly to its official source URL.
-8. Send the generated PPTX through the local Outlook connector.
+8. Render and inspect previews before publishing.
+9. Send the verified PPTX through the local mail connector.
+
+## Rebuilding The Deck
+
+This workspace is designed for the Codex Presentations runtime. From the repository root, regenerate the current deck with:
+
+```bash
+PYTHON=/path/to/python3 node \
+  outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/build-deck.mjs \
+  outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/output/weekly-multicloud-announcements-and-innovations-2026-06-15-redwood.pptx
+```
+
+Then patch appendix hyperlinks and copy the verified deck to the root shareable artifact:
+
+```bash
+python3 outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/patch-pptx-hyperlinks.py \
+  outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/output/weekly-multicloud-announcements-and-innovations-2026-06-15-redwood.pptx \
+  weekly-multicloud-announcements-and-innovations-2026-06-15-redwood.pptx
+```
+
+Before publishing, verify that the PPTX is a valid PowerPoint package, has 10 slides, and that the appendix hyperlinks are present.
 
 ## Reusing The Codex Skill
 
@@ -56,25 +77,37 @@ Use $create-multicloud-oracle-aidb-brief to create this week's official Redwood 
 
 ## Sending The Brief
 
-The working Outlook connector command pattern is:
+The current manual Outlook send pattern is:
 
 ```bash
 python3 tools/send_weekly_brief_email.py \
   --mode outlook \
   --timeout-seconds 180 \
   --to sujoy.nath@oracle.com \
-  --subject "Weekly Multicloud Announcements and Innovations - week ending 2026-06-12" \
+  --subject "Weekly Multicloud Announcements and Innovations - week ending 2026-06-15" \
   --body "Attached is the weekly Oracle Database multicloud announcements and innovations brief." \
-  --attachment weekly-multicloud-announcements-and-innovations-redwood.pptx
+  --attachment weekly-multicloud-announcements-and-innovations-2026-06-15-redwood.pptx
 ```
 
 Delivery should only be considered successful when the script exits with code `0` and returns `"sent": true`.
 
 For non-Outlook environments, configure SMTP variables based on `tools/mail_config.example.env` and run the connector with `--mode smtp`.
 
+## Automation
+
+The weekly schedule is managed in Codex automation, not in this repository. The intended schedule is:
+
+- Every Monday at 9:00 AM Australia/Melbourne time.
+- Recipient: `sujoy.nath@oracle.com`.
+- Attachment: the latest verified Redwood PowerPoint deck.
+- Mail path: `tools/send_weekly_brief_email.py`, preferably in Outlook mode on macOS.
+
+If delivery fails, preserve the failure output and treat the email as unsent until the connector returns `"sent": true`.
+
 ## Notes For Forks
 
-- Do not commit real SMTP passwords, app passwords, tokens, or private `.env` files.
+- Do not commit SMTP passwords, app passwords, tokens, private `.env` files, or generated failure logs.
 - Update source links each week from official pages rather than relying on stale memory.
-- Keep generated failure logs out of Git unless they are intentionally redacted and useful for troubleshooting.
+- Keep transient inspection files such as `*.inspect.ndjson` out of Git.
 - If you change the deck structure, rerender and inspect the contact sheet before publishing.
+- If you run outside this Codex workspace, update any local runtime paths in `build-deck.mjs` to match your environment.
