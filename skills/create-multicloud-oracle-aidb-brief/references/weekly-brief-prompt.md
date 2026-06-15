@@ -27,7 +27,11 @@ Render and inspect a contact sheet before delivery. Verify that the exported PPT
 
 Save the PPTX in the workspace with the week-ending date in the filename. If this is a scheduled run, send the generated PPTX using the workspace mail connector script:
 
-python3 "/Users/sujoynath/Documents/Multicloud Research/tools/send_weekly_brief_email.py" --mode outlook --timeout-seconds 180 --to sujoy.nath@oracle.com --subject "Weekly Multicloud Announcements and Innovations - week ending <week-ending-date>" --body "Attached is the weekly Oracle Database multicloud announcements and innovations brief." --attachment "<absolute-path-to-generated-pptx>"
+python3 "tools/send_weekly_brief_email.py" --mode outlook --timeout-seconds 180 --to sujoy.nath@oracle.com --subject "Weekly Multicloud Announcements and Innovations - week ending <week-ending-date>" --body "Attached is the weekly Oracle Database multicloud announcements and innovations brief." --attachment "<path-to-generated-pptx>"
+
+When running from a fork or local clone that has installed the reusable CLI package, the equivalent command is:
+
+multicloud-aidb-brief send --mode outlook --timeout-seconds 180 --to sujoy.nath@oracle.com --subject "Weekly Multicloud Announcements and Innovations - week ending <week-ending-date>" --attachment "<path-to-generated-pptx>"
 
 Treat email delivery as successful only if the connector exits with code 0 and the Outlook connector output includes `"sent": true`. If it fails, times out, or does not report sent, save the failure output to an `email-send-failure-<date>.log` file in the workspace and do not claim that the email was sent.
 

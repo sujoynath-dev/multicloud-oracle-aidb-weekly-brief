@@ -1,17 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
-import { fileURLToPath } from "node:url";
-import {
-  createSlideContext,
-  ensureArtifactToolWorkspace,
-  importArtifactTool,
-  importModuleFresh,
-  padSlideNumber,
-  resolveSlideFunction,
-  saveBlobToFile,
-  slideNumberFromModuleName,
-} from "/Users/sujoynath/.codex/plugins/cache/openai-primary-runtime/presentations/26.614.11602/skills/presentations/scripts/artifact_tool_utils.mjs";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const workspace = path.dirname(fileURLToPath(import.meta.url));
 const slidesDir = path.join(workspace, "slides");
@@ -22,6 +12,24 @@ const finalPptx =
   process.argv[2] ||
   path.join(outputDir, "weekly-multicloud-announcements-and-innovations-2026-06-15-redwood.pptx");
 const contactSheetPath = path.join(previewDir, "contact-sheet.png");
+const defaultPresentationsSkillDir = path.join(
+  process.env.HOME || "",
+  ".codex/plugins/cache/openai-primary-runtime/presentations/26.614.11602/skills/presentations",
+);
+const presentationsSkillDir = process.env.PRESENTATIONS_SKILL_DIR || defaultPresentationsSkillDir;
+const presentationsScriptsDir = process.env.PRESENTATIONS_SKILL_SCRIPTS_DIR || path.join(presentationsSkillDir, "scripts");
+const artifactUtilsPath =
+  process.env.ARTIFACT_TOOL_UTILS_PATH || path.join(presentationsScriptsDir, "artifact_tool_utils.mjs");
+const {
+  createSlideContext,
+  ensureArtifactToolWorkspace,
+  importArtifactTool,
+  importModuleFresh,
+  padSlideNumber,
+  resolveSlideFunction,
+  saveBlobToFile,
+  slideNumberFromModuleName,
+} = await import(pathToFileURL(artifactUtilsPath).href);
 
 async function discoverSlideModules() {
   const entries = await fs.readdir(slidesDir);
@@ -35,8 +43,7 @@ async function discoverSlideModules() {
 }
 
 function makeContactSheet(previewPaths) {
-  const scriptPath =
-    "/Users/sujoynath/.codex/plugins/cache/openai-primary-runtime/presentations/26.614.11602/skills/presentations/scripts/make_contact_sheet.py";
+  const scriptPath = process.env.MAKE_CONTACT_SHEET_PATH || path.join(presentationsScriptsDir, "make_contact_sheet.py");
   const python = process.env.PYTHON || "python3";
   const result = spawnSync(python, [scriptPath, "--output", contactSheetPath, ...previewPaths], {
     encoding: "utf8",

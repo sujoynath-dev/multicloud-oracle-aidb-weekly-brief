@@ -1,6 +1,6 @@
 # Weekly Multicloud Oracle AI Database Brief
 
-Reusable source, generated artifacts, and automation helpers for a weekly official-source executive brief covering Oracle Database multicloud announcements and innovations across OCI, Google Cloud, AWS, and Azure.
+Reusable source, generated artifacts, automation helpers, and a portable local CLI for a weekly official-source executive brief covering Oracle Database multicloud announcements and innovations across OCI, Google Cloud, AWS, and Azure.
 
 The current brief is titled **Weekly Multicloud Announcements and Innovations**. It focuses on Oracle Database on Exadata and Autonomous AI Database, then turns those announcements into architecture ideas that combine Oracle data platforms with AI offerings such as Gemini Enterprise, Amazon Bedrock, Microsoft Foundry, and OCI Generative AI.
 
@@ -15,6 +15,9 @@ The older root-level HTML/PDF brief artifacts and the undated root PPTX have bee
 
 ## Repository Layout
 
+- `pyproject.toml`: installable Python package metadata for the reusable local CLI.
+- `src/multicloud_aidb_brief/`: portable CLI source for building, verifying, listing sources, and sending the deck.
+- `docs/local-cli.md`: local setup and command reference for users who fork or clone the repository.
 - `outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/slides/`: slide source modules for the 10-slide deck.
 - `outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/assets/`: official provider logo/header captures and Redwood visual references.
 - `outputs/manual-20260612-redwood-ppt/presentations/multicloud-announcements/build-deck.mjs`: local Codex Presentations build helper for regenerating previews, layout files, manifest, and PPTX output.
@@ -35,9 +38,37 @@ The older root-level HTML/PDF brief artifacts and the undated root PPTX have bee
 8. Render and inspect previews before publishing.
 9. Send the verified PPTX through the local mail connector.
 
-## Rebuilding The Deck
+## Local CLI
 
-This workspace is designed for the Codex Presentations runtime. From the repository root, regenerate the current deck with:
+Install the reusable CLI from a cloned repository:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+Build and verify the current brief locally:
+
+```bash
+multicloud-aidb-brief build \
+  --week-ending 2026-06-15 \
+  --verify
+```
+
+Useful commands:
+
+```bash
+multicloud-aidb-brief doctor
+multicloud-aidb-brief sources
+multicloud-aidb-brief verify weekly-multicloud-announcements-and-innovations-2026-06-15-redwood.pptx
+```
+
+See `docs/local-cli.md` for the full command reference, including mail delivery.
+
+## Advanced Codex Rebuild
+
+The portable CLI is the recommended local path for forks. The original presentation workspace is still available for Codex-based visual iteration. From the repository root, regenerate the current deck with:
 
 ```bash
 PYTHON=/path/to/python3 node \
@@ -110,4 +141,4 @@ If delivery fails, preserve the failure output and treat the email as unsent unt
 - Update source links each week from official pages rather than relying on stale memory.
 - Keep transient inspection files such as `*.inspect.ndjson` out of Git.
 - If you change the deck structure, rerender and inspect the contact sheet before publishing.
-- If you run outside this Codex workspace, update any local runtime paths in `build-deck.mjs` to match your environment.
+- If you run the advanced Codex builder outside this workspace, set `PRESENTATIONS_SKILL_DIR`, `PRESENTATIONS_SKILL_SCRIPTS_DIR`, `ARTIFACT_TOOL_UTILS_PATH`, or `MAKE_CONTACT_SHEET_PATH` for your local presentation runtime.

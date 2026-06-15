@@ -9,6 +9,8 @@ description: Create, update, or schedule official-source weekly PowerPoint/PDF b
 
 Create a polished, official-source weekly executive brief for Oracle Database multicloud activity. Default to an editable PowerPoint deck unless the user explicitly asks for PDF, and use the official Oracle Redwood visual language: quiet near-white surfaces, charcoal typography, restrained Oracle red and teal accents, provider logos from official pages, and clean enterprise architecture diagrams.
 
+When the user wants a reusable local package or a forkable workflow, prefer the portable CLI in this repository: `multicloud-aidb-brief`. It can build, verify, list official sources, and send the brief without relying on Codex-specific presentation runtime paths.
+
 When creating an automation prompt or when the user asks for a detailed reusable prompt, load [references/weekly-brief-prompt.md](references/weekly-brief-prompt.md).
 
 ## Workflow
@@ -32,6 +34,7 @@ When creating an automation prompt or when the user asks for a detailed reusable
 
 4. Create the PowerPoint.
    - Use the Presentations skill and artifact-tool PowerPoint workflow.
+   - For local/forkable usage, use or update the portable CLI package in `src/multicloud_aidb_brief/` and its `pyproject.toml` entry point.
    - Include authentic provider logo/header assets from official pages where possible; do not draw approximate logos.
    - Use native PowerPoint arrow shapes or robust shape-based connectors. Avoid fragile glyph arrows or detached line fragments.
    - Keep diagrams editable and executive-readable.
@@ -46,6 +49,7 @@ When creating an automation prompt or when the user asks for a detailed reusable
    - Render the deck preview/contact sheet and inspect the appendix at readable size.
    - Confirm the exported PPTX opens as a PowerPoint package.
    - Confirm slide count and hyperlink relationships for appendix source links.
+   - For the portable CLI path, run `multicloud-aidb-brief build --verify` or `multicloud-aidb-brief verify <pptx>`.
    - Check that arrows/connectors render cleanly.
 
 7. Schedule when requested.
@@ -53,6 +57,7 @@ When creating an automation prompt or when the user asks for a detailed reusable
    - Prefer updating an existing matching automation over creating a duplicate.
    - For the weekly email request, schedule Monday 9:00 AM Australia/Melbourne and email the PPTX to `sujoy.nath@oracle.com`.
    - Use the workspace mail connector script when present: `tools/send_weekly_brief_email.py --mode outlook --timeout-seconds 180 --to sujoy.nath@oracle.com --subject "<subject>" --body "<body>" --attachment "<pptx>"`.
+   - For the portable CLI path, use `multicloud-aidb-brief send --mode outlook --to sujoy.nath@oracle.com --subject "<subject>" --attachment "<pptx>"`.
    - Treat email delivery as successful only when the mail connector exits with code 0 and reports `"sent": true` for Outlook mode. If it fails, times out, or does not report sent, preserve the failure log and do not say the email was sent.
    - For a manual resend, use the same connector against the latest verified PPTX or the user-specified attachment, then report the recipient, subject, and attachment path.
    - Put task requirements in the automation prompt, not in raw RRULE text shown to the user.
