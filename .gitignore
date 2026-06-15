@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *.log
+*.inspect.ndjson
 .env
 *.local.env
 outputs/**/.DS_Store

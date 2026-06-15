@@ -1,5 +1,5 @@
 Thesis:
-The week is quiet across Azure and Google Cloud but material on AWS: Autonomous Database Serverless on Oracle Database@AWS lowers the entry point for multicloud Oracle AI and data patterns.
+The 9-15 Jun week has one material Oracle Database multicloud change on AWS, plus adjacent OCI data and AI platform updates: Autonomous Database Serverless on Oracle Database@AWS lowers the entry point for multicloud Oracle AI and data patterns.
 
 Audience:
 Oracle multicloud architects, sales engineers, product strategists, and executive stakeholders tracking Oracle Database on hyperscaler platforms.
@@ -9,12 +9,12 @@ Start with the official weekly signal, show what changed by cloud, translate it 
 
 Slide list:
 1. Weekly Multicloud Announcements and Innovations
-   Claim: AWS has the strongest weekly change; the broader story is platform convergence around Oracle data and hyperscaler AI.
+   Claim: AWS has the strongest weekly Oracle Database change; OCI adds adjacent GoldenGate and Generative AI signals.
    Proof object: Logo strip plus three-bullet executive summary.
    Sources: Official report source list and Redwood reference.
 2. The weekly signal is narrow but strategically important.
    Proof object: Provider announcement matrix.
-   Sources: AWS document history, Google release notes, Oracle Azure docs, OCI release notes.
+   Sources: AWS document history, OCI release notes, Google release notes, Oracle Azure docs.
 3. AWS adds the clearest new adoption path.
    Proof object: Before/after service model for ADB-S on Oracle Database@AWS.
    Sources: AWS document history and Oracle Database@AWS docs.
@@ -35,7 +35,7 @@ Slide list:
    Sources: Report architecture section.
 9. Governance, security, and DR should be designed before model routing.
    Proof object: Control matrix.
-   Sources: AWS KMS/Data Guard OCI release notes, provider service docs.
+   Sources: OCI release notes, AWS KMS/Data Guard release note, provider service docs.
 10. Appendix: grouped clickable official source topics.
    Proof object: One-slide source index grouped by OCI, GCP, AWS, and Azure, with topic labels linked to official URLs.
    Sources: All official source URLs.

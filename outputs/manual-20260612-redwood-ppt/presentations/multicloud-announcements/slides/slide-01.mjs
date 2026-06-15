@@ -14,17 +14,17 @@ export async function slide01(presentation, ctx) {
     720,
   );
   await logoStrip(slide, ctx, 64, 336);
-  metric(slide, ctx, 920, 92, "6-12 Jun", "coverage window, Australia/Melbourne", { w: 230, color: C.charcoal });
+  metric(slide, ctx, 920, 92, "9-15 Jun", "coverage window, Australia/Melbourne", { w: 230, color: C.charcoal });
   metric(slide, ctx, 920, 210, "AWS", "strongest weekly signal: ADB-S in Oracle Database@AWS", {
     w: 230,
     color: C.redDark,
   });
-  bullet(slide, ctx, 920, 352, "Google Cloud and Azure had no new dated Oracle Database items inside the week.", { w: 245 });
-  bullet(slide, ctx, 920, 430, "Recent watchlist still matters: GoldenGate, Autonomous Data Guard, KMS and DR.", {
+  bullet(slide, ctx, 920, 352, "OCI had adjacent data and AI platform updates: GoldenGate Veridata and Generative AI model import.", { w: 245 });
+  bullet(slide, ctx, 920, 450, "Google Cloud and Azure had no new dated Oracle Database items inside the week.", {
     w: 245,
     dot: C.teal,
   });
-  bullet(slide, ctx, 920, 526, "Deck theme follows the official Redwood reference page supplied by the user.", {
+  bullet(slide, ctx, 920, 548, "Deck theme follows the official Redwood reference page supplied by the user.", {
     w: 245,
     dot: C.amber,
   });

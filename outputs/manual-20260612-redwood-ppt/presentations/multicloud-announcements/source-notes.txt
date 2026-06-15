@@ -25,3 +25,10 @@ Report content sources:
 - Oracle Cloud Infrastructure Release Notes: https://docs.oracle.com/en-us/iaas/releasenotes/index.htm
 - Oracle AI Database 26ai AI Vector Search docs: https://docs.oracle.com/en/database/oracle/oracle-database/26/vecse/overview-ai-vector-search.html
 - Microsoft Foundry docs: https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry
+
+Refresh notes for 15 June 2026 deck:
+- Coverage window updated to 9-15 June 2026, Australia/Melbourne.
+- AWS remains the strongest current-week Oracle Database signal: Oracle Database@AWS document history lists Autonomous Database Serverless support on 10 June 2026.
+- OCI current-week adjacent signals from official OCI release notes: GoldenGate Veridata on 10 June 2026 and OCI Generative AI Whisper-compatible import on 9 June 2026.
+- Google Cloud Oracle Database@Google Cloud release notes were checked on 15 June 2026; the latest dated Oracle Database@Google Cloud release note visible was 27 May 2026.
+- Oracle AI Database@Azure regional availability page was checked on 15 June 2026 and shows 33 live regions across APAC, EMEA, LATAM, and North America.

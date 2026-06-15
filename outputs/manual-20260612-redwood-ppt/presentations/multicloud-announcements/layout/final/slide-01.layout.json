@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/8za5da",
-    "id": "8za5da",
+    "aid": "sl/k1ouhe",
+    "id": "k1ouhe",
     "slide": 1,
-    "layoutId": "203d1ad8-03d7-4851-a6e0-d0f95ccfee2f",
+    "layoutId": "505571dd-8910-4f4a-aa8a-76559f535808",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "22dc1929-0e91-414d-9214-eb41fcccaa4c",
+    "masterLayoutId": "2e6fd175-9b19-48a7-9c67-3420ba723d60",
     "masterLayoutName": "Master",
     "frame": {
       "left": 0,
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "203d1ad8-03d7-4851-a6e0-d0f95ccfee2f",
+      "id": "505571dd-8910-4f4a-aa8a-76559f535808",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "22dc1929-0e91-414d-9214-eb41fcccaa4c",
+      "parentLayoutId": "2e6fd175-9b19-48a7-9c67-3420ba723d60",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "22dc1929-0e91-414d-9214-eb41fcccaa4c",
+      "id": "2e6fd175-9b19-48a7-9c67-3420ba723d60",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/za1gvy90",
+      "aid": "sh/neloj2t8",
       "id": "1",
       "bbox": [
         0,
@@ -81,7 +81,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/svu9knih",
+      "aid": "sh/czed8v6p",
       "id": "2",
       "bbox": [
         0,
@@ -98,7 +98,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/hgn29gr2",
+      "aid": "sh/5kb6xkf6",
       "id": "3",
       "bbox": [
         64,
@@ -115,7 +115,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/a1gvy90j",
+      "aid": "sh/u54zidon",
       "id": "4",
       "bbox": [
         82,
@@ -183,7 +183,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/zidonyd0",
+      "aid": "sh/nqxs72x4",
       "id": "5",
       "bbox": [
         64,
@@ -255,7 +255,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/s36hcrmh",
+      "aid": "sh/cbulwval",
       "id": "6",
       "bbox": [
         64,
@@ -324,7 +324,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/hoza1gvy",
+      "aid": "sh/5sneloj2",
       "id": "7",
       "bbox": [
         64,
@@ -341,7 +341,7 @@
       "order": 8,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/bulwval8",
+      "aid": "im/neloj2t8",
       "id": "8",
       "bbox": [
         82,
@@ -353,7 +353,7 @@
       "contentType": "image/png",
       "imageFit": "contain",
       "asset": {
-        "assetId": "f9b317c0-69ad-430c-80de-f50e7e682d35",
+        "assetId": "ce31cc71-b58e-46de-aebb-43e8d2b35daf",
         "contentType": "image/png",
         "byteLength": 2798
       }
@@ -362,7 +362,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3m94fu18",
+      "aid": "sh/nuxc3ylc",
       "id": "9",
       "bbox": [
         262,
@@ -379,7 +379,7 @@
       "order": 10,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/0fepkzup",
+      "aid": "im/83itgfml",
       "id": "10",
       "bbox": [
         280,
@@ -391,7 +391,7 @@
       "contentType": "image/png",
       "imageFit": "contain",
       "asset": {
-        "assetId": "c3161785-3ad1-4c26-ac45-44c25f2d7936",
+        "assetId": "9c499317-530d-4a1c-be66-d3538e0b6277",
         "contentType": "image/png",
         "byteLength": 3982
       }
@@ -400,7 +400,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/a1gvy90j",
+      "aid": "sh/eloj2t83",
       "id": "11",
       "bbox": [
         460,
@@ -417,7 +417,7 @@
       "order": 12,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/i9s36hcr",
+      "aid": "im/qxs72x4n",
       "id": "12",
       "bbox": [
         478,
@@ -429,7 +429,7 @@
       "contentType": "image/png",
       "imageFit": "contain",
       "asset": {
-        "assetId": "cdc17a2d-af97-4131-9f51-4ae60f8966bb",
+        "assetId": "cf0f456a-71f1-4a81-a634-5d5c4fac4ca7",
         "contentType": "image/png",
         "byteLength": 2811
       }
@@ -438,7 +438,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/s36hcrmh",
+      "aid": "sh/wra5gbq1",
       "id": "13",
       "bbox": [
         658,
@@ -455,7 +455,7 @@
       "order": 14,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/032lszqt",
+      "aid": "im/4fu18jqh",
       "id": "14",
       "bbox": [
         676,
@@ -467,7 +467,7 @@
       "contentType": "image/png",
       "imageFit": "contain",
       "asset": {
-        "assetId": "15b3b7c3-5f25-4ea5-9d71-a89b35f3dbe5",
+        "assetId": "29e49062-0ddf-43c5-a8ad-8dce2b676d39",
         "contentType": "image/png",
         "byteLength": 11041
       }
@@ -476,7 +476,7 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ap4r65wj",
+      "aid": "sh/ed8bat47",
       "id": "15",
       "bbox": [
         920,
@@ -493,7 +493,7 @@
       "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/hgn29gr2",
+      "aid": "sh/l0rqd4vm",
       "id": "16",
       "bbox": [
         938,
@@ -502,8 +502,8 @@
         30
       ],
       "geometry": "rect",
-      "text": "6-12 Jun",
-      "textPreview": "6-12 Jun",
+      "text": "9-15 Jun",
+      "textPreview": "9-15 Jun",
       "resolvedFontSize": 28,
       "resolvedTextStyle": {
         "anchor": 1,
@@ -525,14 +525,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "6-12 Jun"
+            "text": "9-15 Jun"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "6-12 Jun",
+          "text": "9-15 Jun",
           "resolvedTextStyle": {
             "fontSize": 28,
             "typeface": "Aptos",
@@ -543,7 +543,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "6-12 Jun",
+              "text": "9-15 Jun",
               "fontSize": 28,
               "typeface": "Aptos",
               "color": "#312D2A",
@@ -561,7 +561,7 @@
       "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/svu9knih",
+      "aid": "sh/wfyxobm5",
       "id": "17",
       "bbox": [
         938,
@@ -630,7 +630,7 @@
       "order": 18,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3ylc7u54",
+      "aid": "sh/7mp0bi9s",
       "id": "18",
       "bbox": [
         920,
@@ -647,7 +647,7 @@
       "order": 19,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/adsji5sn",
+      "aid": "sh/e1w7mp0b",
       "id": "19",
       "bbox": [
         938,
@@ -715,7 +715,7 @@
       "order": 20,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/idonyd0z",
+      "aid": "sh/qxs72x4n",
       "id": "20",
       "bbox": [
         938,
@@ -784,7 +784,7 @@
       "order": 21,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/byhgn29g",
+      "aid": "sh/fil0rqd4",
       "id": "21",
       "bbox": [
         920,
@@ -801,11 +801,105 @@
       "order": 22,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0je9cvix",
+      "aid": "sh/83itgfml",
       "id": "22",
       "bbox": [
         936,
         352,
+        245,
+        44
+      ],
+      "geometry": "rect",
+      "text": "OCI had adjacent data and AI platform updates: GoldenGate Veridata and Generative AI model import.",
+      "textPreview": "OCI had adjacent data and AI platform updates: GoldenGate Veridata and Generative AI model import.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#312D2A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OCI had adjacent data and AI"
+          },
+          {
+            "index": 2,
+            "text": "platform updates: GoldenGate"
+          },
+          {
+            "index": 3,
+            "text": "Veridata and Generative AI model"
+          },
+          {
+            "index": 4,
+            "text": "import."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OCI had adjacent data and AI platform updates: GoldenGate Veridata and Generative AI model import.",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#312D2A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OCI had adjacent data and AI platform updates: GoldenGate Veridata and Generative AI model import.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#312D2A"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobm58z2",
+      "id": "23",
+      "bbox": [
+        920,
+        457,
+        5,
+        5
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#4E7C78",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m94fu18j",
+      "id": "24",
+      "bbox": [
+        936,
+        450,
         245,
         44
       ],
@@ -871,104 +965,14 @@
       "lineWidth": 0
     },
     {
-      "order": 23,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/t47y1kre",
-      "id": "23",
-      "bbox": [
-        920,
-        437,
-        5,
-        5
-      ],
-      "geometry": "ellipse",
-      "fillColor": "#4E7C78",
-      "lineColor": "rgba(0, 0, 0, 0)",
-      "lineWidth": 0
-    },
-    {
-      "order": 24,
-      "kind": "shape",
-      "scope": "slide",
-      "aid": "sh/il0rqd4v",
-      "id": "24",
-      "bbox": [
-        936,
-        430,
-        245,
-        44
-      ],
-      "geometry": "rect",
-      "text": "Recent watchlist still matters: GoldenGate, Autonomous Data Guard, KMS and DR.",
-      "textPreview": "Recent watchlist still matters: GoldenGate, Autonomous Data Guard, KMS and DR.",
-      "resolvedFontSize": 16,
-      "resolvedTextStyle": {
-        "anchor": 1,
-        "fontSize": 16,
-        "typeface": "Aptos",
-        "color": "#312D2A",
-        "alignment": "left",
-        "verticalAlignment": "top",
-        "insets": {
-          "top": 0,
-          "right": 0,
-          "bottom": 0,
-          "left": 0
-        }
-      },
-      "textLayout": {
-        "lineCount": 3,
-        "lines": [
-          {
-            "index": 1,
-            "text": "Recent watchlist still matters:"
-          },
-          {
-            "index": 2,
-            "text": "GoldenGate, Autonomous Data"
-          },
-          {
-            "index": 3,
-            "text": "Guard, KMS and DR."
-          }
-        ]
-      },
-      "paragraphs": [
-        {
-          "index": 1,
-          "text": "Recent watchlist still matters: GoldenGate, Autonomous Data Guard, KMS and DR.",
-          "resolvedTextStyle": {
-            "fontSize": 16,
-            "typeface": "Aptos",
-            "color": "#312D2A",
-            "alignment": "left"
-          },
-          "runs": [
-            {
-              "index": 1,
-              "text": "Recent watchlist still matters: GoldenGate, Autonomous Data Guard, KMS and DR.",
-              "fontSize": 16,
-              "typeface": "Aptos",
-              "color": "#312D2A"
-            }
-          ],
-          "marginLeft": 0
-        }
-      ],
-      "fillColor": "rgba(0, 0, 0, 0)",
-      "lineColor": "rgba(0, 0, 0, 0)",
-      "lineWidth": 0
-    },
-    {
       "order": 25,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/b6xkf6dc",
+      "aid": "sh/fu18jqh0",
       "id": "25",
       "bbox": [
         920,
-        533,
+        555,
         5,
         5
       ],
@@ -981,11 +985,11 @@
       "order": 26,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0rqd4vmt",
+      "aid": "sh/4fu18jqh",
       "id": "26",
       "bbox": [
         936,
-        526,
+        548,
         245,
         44
       ],

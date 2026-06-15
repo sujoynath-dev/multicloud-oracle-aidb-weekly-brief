@@ -2,7 +2,7 @@ import { C, setup, kicker, claim, node, pill } from "./theme.mjs";
 
 export async function slide09(presentation, ctx) {
   const slide = presentation.slides.add();
-  setup(slide, ctx, { page: 9, source: "AWS KMS/Data Guard release note; provider service docs" });
+  setup(slide, ctx, { page: 9, source: "OCI release notes; AWS KMS/Data Guard release note; provider service docs" });
   kicker(slide, ctx, "Controls before models");
   claim(slide, ctx, "Governance, security, and DR should be designed before model routing.", 82, 980);
 

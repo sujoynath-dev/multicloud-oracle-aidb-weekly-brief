@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/0ua13q",
-    "id": "0ua13q",
+    "aid": "sl/xbbqzy",
+    "id": "xbbqzy",
     "slide": 2,
-    "layoutId": "203d1ad8-03d7-4851-a6e0-d0f95ccfee2f",
+    "layoutId": "505571dd-8910-4f4a-aa8a-76559f535808",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "22dc1929-0e91-414d-9214-eb41fcccaa4c",
+    "masterLayoutId": "2e6fd175-9b19-48a7-9c67-3420ba723d60",
     "masterLayoutName": "Master",
     "frame": {
       "left": 0,
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "203d1ad8-03d7-4851-a6e0-d0f95ccfee2f",
+      "id": "505571dd-8910-4f4a-aa8a-76559f535808",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "22dc1929-0e91-414d-9214-eb41fcccaa4c",
+      "parentLayoutId": "2e6fd175-9b19-48a7-9c67-3420ba723d60",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "22dc1929-0e91-414d-9214-eb41fcccaa4c",
+      "id": "2e6fd175-9b19-48a7-9c67-3420ba723d60",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/l87ed8ba",
+      "aid": "sh/0fepkzup",
       "id": "1",
       "bbox": [
         0,
@@ -81,7 +81,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ahoza1gv",
+      "aid": "sh/bulwval8",
       "id": "2",
       "bbox": [
         0,
@@ -98,7 +98,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/32lszqtc",
+      "aid": "sh/i9s36hcr",
       "id": "3",
       "bbox": [
         64,
@@ -115,7 +115,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/szqtcj6t",
+      "aid": "sh/tovahoza",
       "id": "4",
       "bbox": [
         64,
@@ -180,7 +180,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/lkjm1cfa",
+      "aid": "sh/032lszqt",
       "id": "5",
       "bbox": [
         1140,
@@ -245,7 +245,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/at47y1kr",
+      "aid": "sh/bi9s36hc",
       "id": "6",
       "bbox": [
         64,
@@ -262,7 +262,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3ex0nuxc",
+      "aid": "sh/ixczed8v",
       "id": "7",
       "bbox": [
         82,
@@ -330,7 +330,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/w3m94fu1",
+      "aid": "sh/tcj6tova",
       "id": "8",
       "bbox": [
         64,
@@ -402,7 +402,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/loj2t83i",
+      "aid": "sh/0rqd4vmt",
       "id": "9",
       "bbox": [
         72,
@@ -419,7 +419,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/9knih4by",
+      "aid": "sh/i9s36hcr",
       "id": "10",
       "bbox": [
         86,
@@ -487,7 +487,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/kzupwb2h",
+      "aid": "sh/bulwval8",
       "id": "11",
       "bbox": [
         86,
@@ -528,7 +528,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/re1w7mp0",
+      "aid": "sh/0fepkzup",
       "id": "12",
       "bbox": [
         222,
@@ -545,7 +545,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2t83itgf",
+      "aid": "sh/p0bi9s36",
       "id": "13",
       "bbox": [
         236,
@@ -613,7 +613,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/9w3m94fu",
+      "aid": "sh/ixczed8v",
       "id": "14",
       "bbox": [
         236,
@@ -654,7 +654,7 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/kb6xkf6d",
+      "aid": "sh/bi9s36hc",
       "id": "15",
       "bbox": [
         367,
@@ -671,7 +671,7 @@
       "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rqd4vmtw",
+      "aid": "sh/032lszqt",
       "id": "16",
       "bbox": [
         381,
@@ -739,7 +739,7 @@
       "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/25kb6xkf",
+      "aid": "sh/tovahoza",
       "id": "17",
       "bbox": [
         381,
@@ -780,7 +780,7 @@
       "order": 18,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/94fu18jq",
+      "aid": "sh/il0rqd4v",
       "id": "18",
       "bbox": [
         977,
@@ -797,7 +797,7 @@
       "order": 19,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/kjm1cfa9",
+      "aid": "sh/b6xkf6dc",
       "id": "19",
       "bbox": [
         991,
@@ -865,7 +865,7 @@
       "order": 20,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wfyxobm5",
+      "aid": "sh/32lszqtc",
       "id": "20",
       "bbox": [
         991,
@@ -906,7 +906,7 @@
       "order": 21,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/l0rqd4vm",
+      "aid": "sh/ahoza1gv",
       "id": "21",
       "bbox": [
         72,
@@ -923,7 +923,7 @@
       "order": 22,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ed8bat47",
+      "aid": "sh/l87ed8ba",
       "id": "22",
       "bbox": [
         72,
@@ -940,7 +940,7 @@
       "order": 23,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7u54zido",
+      "aid": "sh/sneloj2t",
       "id": "23",
       "bbox": [
         86,
@@ -1008,7 +1008,7 @@
       "order": 24,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wra5gbq1",
+      "aid": "sh/3ex0nuxc",
       "id": "24",
       "bbox": [
         86,
@@ -1049,7 +1049,7 @@
       "order": 25,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/lc7u54zi",
+      "aid": "sh/at47y1kr",
       "id": "25",
       "bbox": [
         222,
@@ -1066,7 +1066,7 @@
       "order": 26,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/eloj2t83",
+      "aid": "sh/lkjm1cfa",
       "id": "26",
       "bbox": [
         236,
@@ -1134,7 +1134,7 @@
       "order": 27,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/36hcrmhk",
+      "aid": "sh/szqtcj6t",
       "id": "27",
       "bbox": [
         236,
@@ -1175,7 +1175,7 @@
       "order": 28,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wval87ed",
+      "aid": "sh/3itgfmlk",
       "id": "28",
       "bbox": [
         367,
@@ -1192,7 +1192,7 @@
       "order": 29,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/pg3ex0nu",
+      "aid": "sh/ex0nuxc3",
       "id": "29",
       "bbox": [
         381,
@@ -1260,7 +1260,7 @@
       "order": 30,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bm58z25k",
+      "aid": "sh/ovahoza1",
       "id": "30",
       "bbox": [
         381,
@@ -1301,7 +1301,7 @@
       "order": 31,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/m1cfa9w3",
+      "aid": "sh/dg7adsji",
       "id": "31",
       "bbox": [
         1001,
@@ -1318,7 +1318,7 @@
       "order": 32,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/tsvu9kni",
+      "aid": "sh/6tovahoz",
       "id": "32",
       "bbox": [
         1011,
@@ -1386,7 +1386,7 @@
       "order": 33,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/47y1kre1",
+      "aid": "sh/vahoza1g",
       "id": "33",
       "bbox": [
         72,
@@ -1403,7 +1403,7 @@
       "order": 34,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bat47y1k",
+      "aid": "sh/onyd0z61",
       "id": "34",
       "bbox": [
         72,
@@ -1420,7 +1420,7 @@
       "order": 35,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mp0bi9s3",
+      "aid": "sh/d8v6psfi",
       "id": "35",
       "bbox": [
         86,
@@ -1429,8 +1429,8 @@
         32
       ],
       "geometry": "rect",
-      "text": "Oracle",
-      "textPreview": "Oracle",
+      "text": "OCI",
+      "textPreview": "OCI",
       "resolvedFontSize": 15,
       "resolvedTextStyle": {
         "anchor": 1,
@@ -1452,14 +1452,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "Oracle"
+            "text": "OCI"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "Oracle",
+          "text": "OCI",
           "resolvedTextStyle": {
             "fontSize": 15,
             "typeface": "Aptos",
@@ -1470,7 +1470,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "Oracle",
+              "text": "OCI",
               "fontSize": 15,
               "typeface": "Aptos",
               "color": "#161513",
@@ -1488,7 +1488,7 @@
       "order": 36,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/tgfmlkjm",
+      "aid": "sh/6hcrmhk3",
       "id": "36",
       "bbox": [
         86,
@@ -1529,7 +1529,7 @@
       "order": 37,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4vmtwra5",
+      "aid": "sh/z25kb6xk",
       "id": "37",
       "bbox": [
         222,
@@ -1546,7 +1546,7 @@
       "order": 38,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/b2hwfyxo",
+      "aid": "sh/oj2t83it",
       "id": "38",
       "bbox": [
         236,
@@ -1555,8 +1555,8 @@
         32
       ],
       "geometry": "rect",
-      "text": "9 Jun 2026",
-      "textPreview": "9 Jun 2026",
+      "text": "9-10 Jun 2026",
+      "textPreview": "9-10 Jun 2026",
       "resolvedFontSize": 14,
       "resolvedTextStyle": {
         "anchor": 1,
@@ -1578,14 +1578,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "9 Jun 2026"
+            "text": "9-10 Jun 2026"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "9 Jun 2026",
+          "text": "9-10 Jun 2026",
           "resolvedTextStyle": {
             "fontSize": 14,
             "typeface": "Aptos",
@@ -1596,7 +1596,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "9 Jun 2026",
+              "text": "9-10 Jun 2026",
               "fontSize": 14,
               "typeface": "Aptos",
               "color": "#161513",
@@ -1614,7 +1614,7 @@
       "order": 39,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/mhk3q5o7",
+      "aid": "sh/d4vmtwra",
       "id": "39",
       "bbox": [
         236,
@@ -1655,7 +1655,7 @@
       "order": 40,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2lszqtcj",
+      "aid": "sh/9s36hcrm",
       "id": "40",
       "bbox": [
         367,
@@ -1672,7 +1672,7 @@
       "order": 41,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/v6psfil0",
+      "aid": "sh/g7adsji5",
       "id": "41",
       "bbox": [
         381,
@@ -1681,8 +1681,8 @@
         32
       ],
       "geometry": "rect",
-      "text": "OCI Generative AI adds import support for a Whisper-compatible model.",
-      "textPreview": "OCI Generative AI adds import support for a Whisper-compatible model.",
+      "text": "OCI GoldenGate adds Veridata; OCI Generative AI adds Whisper model import.",
+      "textPreview": "OCI GoldenGate adds Veridata; OCI Generative AI adds Whisper model import.",
       "resolvedFontSize": 14,
       "resolvedTextStyle": {
         "anchor": 1,
@@ -1704,14 +1704,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "OCI Generative AI adds import support for a Whisper-compatible model."
+            "text": "OCI GoldenGate adds Veridata; OCI Generative AI adds Whisper model import."
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "OCI Generative AI adds import support for a Whisper-compatible model.",
+          "text": "OCI GoldenGate adds Veridata; OCI Generative AI adds Whisper model import.",
           "resolvedTextStyle": {
             "fontSize": 14,
             "typeface": "Aptos",
@@ -1722,7 +1722,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "OCI Generative AI adds import support for a Whisper-compatible model.",
+              "text": "OCI GoldenGate adds Veridata; OCI Generative AI adds Whisper model import.",
               "fontSize": 14,
               "typeface": "Aptos",
               "color": "#161513",
@@ -1740,7 +1740,7 @@
       "order": 42,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/knih4byh",
+      "aid": "sh/rmhk3q5o",
       "id": "42",
       "bbox": [
         381,
@@ -1781,7 +1781,7 @@
       "order": 43,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/d8bat47y",
+      "aid": "sh/y1kre1w7",
       "id": "43",
       "bbox": [
         1001,
@@ -1798,7 +1798,7 @@
       "order": 44,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/29gr2p8n",
+      "aid": "sh/90je9cvi",
       "id": "44",
       "bbox": [
         1011,
@@ -1866,7 +1866,7 @@
       "order": 45,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vu9knih4",
+      "aid": "sh/gfmlkjm1",
       "id": "45",
       "bbox": [
         72,
@@ -1883,7 +1883,7 @@
       "order": 46,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/kf6dcbul",
+      "aid": "sh/rytsvu9k",
       "id": "46",
       "bbox": [
         72,
@@ -1900,7 +1900,7 @@
       "order": 47,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/d0z61032",
+      "aid": "sh/yd0z6103",
       "id": "47",
       "bbox": [
         86,
@@ -1968,7 +1968,7 @@
       "order": 48,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/2x4nap4r",
+      "aid": "sh/9cvixcze",
       "id": "48",
       "bbox": [
         86,
@@ -2009,7 +2009,7 @@
       "order": 49,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vixczed8",
+      "aid": "sh/gr2p8nqx",
       "id": "49",
       "bbox": [
         222,
@@ -2026,7 +2026,7 @@
       "order": 50,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/hoza1gvy",
+      "aid": "sh/a5gbq1or",
       "id": "50",
       "bbox": [
         236,
@@ -2035,8 +2035,8 @@
         32
       ],
       "geometry": "rect",
-      "text": "6-12 Jun",
-      "textPreview": "6-12 Jun",
+      "text": "9-15 Jun",
+      "textPreview": "9-15 Jun",
       "resolvedFontSize": 14,
       "resolvedTextStyle": {
         "anchor": 1,
@@ -2058,14 +2058,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "6-12 Jun"
+            "text": "9-15 Jun"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "6-12 Jun",
+          "text": "9-15 Jun",
           "resolvedTextStyle": {
             "fontSize": 14,
             "typeface": "Aptos",
@@ -2076,7 +2076,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "6-12 Jun",
+              "text": "9-15 Jun",
               "fontSize": 14,
               "typeface": "Aptos",
               "color": "#161513",
@@ -2094,7 +2094,7 @@
       "order": 51,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/s36hcrmh",
+      "aid": "sh/3m94fu18",
       "id": "51",
       "bbox": [
         236,
@@ -2135,7 +2135,7 @@
       "order": 52,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/zidonyd0",
+      "aid": "sh/s72x4nap",
       "id": "52",
       "bbox": [
         367,
@@ -2152,7 +2152,7 @@
       "order": 53,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/a1gvy90j",
+      "aid": "sh/lszqtcj6",
       "id": "53",
       "bbox": [
         381,
@@ -2161,8 +2161,8 @@
         32
       ],
       "geometry": "rect",
-      "text": "No new dated Oracle Database@Google Cloud item found in official release notes.",
-      "textPreview": "No new dated Oracle Database@Google Cloud item found in official release notes.",
+      "text": "No new dated Oracle Database@Google Cloud item found; latest release note remains 27 May.",
+      "textPreview": "No new dated Oracle Database@Google Cloud item found; latest release note remains 27 May.",
       "resolvedFontSize": 14,
       "resolvedTextStyle": {
         "anchor": 1,
@@ -2180,18 +2180,22 @@
         }
       },
       "textLayout": {
-        "lineCount": 1,
+        "lineCount": 2,
         "lines": [
           {
             "index": 1,
-            "text": "No new dated Oracle Database@Google Cloud item found in official release notes."
+            "text": "No new dated Oracle Database@Google Cloud item found; latest release note remains"
+          },
+          {
+            "index": 2,
+            "text": "27 May."
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "No new dated Oracle Database@Google Cloud item found in official release notes.",
+          "text": "No new dated Oracle Database@Google Cloud item found; latest release note remains 27 May.",
           "resolvedTextStyle": {
             "fontSize": 14,
             "typeface": "Aptos",
@@ -2202,7 +2206,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "No new dated Oracle Database@Google Cloud item found in official release notes.",
+              "text": "No new dated Oracle Database@Google Cloud item found; latest release note remains 27 May.",
               "fontSize": 14,
               "typeface": "Aptos",
               "color": "#161513",
@@ -2220,7 +2224,7 @@
       "order": 54,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/hgn29gr2",
+      "aid": "sh/adsji5sn",
       "id": "54",
       "bbox": [
         381,
@@ -2261,7 +2265,7 @@
       "order": 55,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/svu9knih",
+      "aid": "sh/3ylc7u54",
       "id": "55",
       "bbox": [
         1001,
@@ -2278,7 +2282,7 @@
       "order": 56,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/za1gvy90",
+      "aid": "sh/sji5snel",
       "id": "56",
       "bbox": [
         1011,
@@ -2346,7 +2350,7 @@
       "order": 57,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ap4r65wj",
+      "aid": "sh/h4byhgn2",
       "id": "57",
       "bbox": [
         72,
@@ -2363,7 +2367,7 @@
       "order": 58,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/h4byhgn2",
+      "aid": "sh/ap4r65wj",
       "id": "58",
       "bbox": [
         72,
@@ -2380,7 +2384,7 @@
       "order": 59,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/sji5snel",
+      "aid": "sh/za1gvy90",
       "id": "59",
       "bbox": [
         86,
@@ -2448,7 +2452,7 @@
       "order": 60,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/87ed8bat",
+      "aid": "sh/ra5gbq1o",
       "id": "60",
       "bbox": [
         86,
@@ -2489,7 +2493,7 @@
       "order": 61,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/xs72x4na",
+      "aid": "sh/2p8nqxs7",
       "id": "61",
       "bbox": [
         222,
@@ -2506,7 +2510,7 @@
       "order": 62,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/q1orytsv",
+      "aid": "sh/9gr2p8nq",
       "id": "62",
       "bbox": [
         236,
@@ -2515,8 +2519,8 @@
         32
       ],
       "geometry": "rect",
-      "text": "6-12 Jun",
-      "textPreview": "6-12 Jun",
+      "text": "9-15 Jun",
+      "textPreview": "9-15 Jun",
       "resolvedFontSize": 14,
       "resolvedTextStyle": {
         "anchor": 1,
@@ -2538,14 +2542,14 @@
         "lines": [
           {
             "index": 1,
-            "text": "6-12 Jun"
+            "text": "9-15 Jun"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "6-12 Jun",
+          "text": "9-15 Jun",
           "resolvedTextStyle": {
             "fontSize": 14,
             "typeface": "Aptos",
@@ -2556,7 +2560,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "6-12 Jun",
+              "text": "9-15 Jun",
               "fontSize": 14,
               "typeface": "Aptos",
               "color": "#161513",
@@ -2574,7 +2578,7 @@
       "order": 63,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fmlkjm1c",
+      "aid": "sh/gvy90je9",
       "id": "63",
       "bbox": [
         236,
@@ -2615,7 +2619,7 @@
       "order": 64,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8z25kb6x",
+      "aid": "sh/r2p8nqxs",
       "id": "64",
       "bbox": [
         367,
@@ -2632,7 +2636,7 @@
       "order": 65,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1gvy90je",
+      "aid": "sh/2hwfyxob",
       "id": "65",
       "bbox": [
         381,
@@ -2641,8 +2645,8 @@
         32
       ],
       "geometry": "rect",
-      "text": "No new official Oracle Database@Azure item found inside the week.",
-      "textPreview": "No new official Oracle Database@Azure item found inside the week.",
+      "text": "No new official Oracle Database@Azure item found; availability page still shows 33 live regions.",
+      "textPreview": "No new official Oracle Database@Azure item found; availability page still shows 33 live regions.",
       "resolvedFontSize": 14,
       "resolvedTextStyle": {
         "anchor": 1,
@@ -2660,18 +2664,22 @@
         }
       },
       "textLayout": {
-        "lineCount": 1,
+        "lineCount": 2,
         "lines": [
           {
             "index": 1,
-            "text": "No new official Oracle Database@Azure item found inside the week."
+            "text": "No new official Oracle Database@Azure item found; availability page still shows 33 live"
+          },
+          {
+            "index": 2,
+            "text": "regions."
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "No new official Oracle Database@Azure item found inside the week.",
+          "text": "No new official Oracle Database@Azure item found; availability page still shows 33 live regions.",
           "resolvedTextStyle": {
             "fontSize": 14,
             "typeface": "Aptos",
@@ -2682,7 +2690,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "No new official Oracle Database@Azure item found inside the week.",
+              "text": "No new official Oracle Database@Azure item found; availability page still shows 33 live regions.",
               "fontSize": 14,
               "typeface": "Aptos",
               "color": "#161513",
@@ -2700,7 +2708,7 @@
       "order": 66,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qtcj6tov",
+      "aid": "sh/94fu18jq",
       "id": "66",
       "bbox": [
         381,
@@ -2741,7 +2749,7 @@
       "order": 67,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/je9cvixc",
+      "aid": "sh/kjm1cfa9",
       "id": "67",
       "bbox": [
         1001,
@@ -2758,7 +2766,7 @@
       "order": 68,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8v6psfil",
+      "aid": "sh/rqd4vmtw",
       "id": "68",
       "bbox": [
         1011,

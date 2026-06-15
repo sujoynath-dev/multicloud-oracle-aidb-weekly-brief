@@ -11,7 +11,7 @@ export async function slide04(presentation, ctx) {
     ["19 May", "Autonomous Data Guard local peers GA", "Improves local continuity for Autonomous Database in Google Cloud."],
     ["20 May", "OCI GoldenGate support GA", "Strengthens migration, replication, and data-product feeds."],
     ["27 May", "Melbourne and Milan zones", "Adds placement options for Exascale, Base Database, and GoldenGate."],
-    ["9 Jun", "Release notes page updated", "No new dated Oracle Database enhancement inside 6-12 June."],
+    ["15 Jun", "Release notes checked", "No new dated Oracle Database enhancement inside 9-15 June."],
   ];
   ctx.addShape(slide, { x: 118, y: 275, w: 986, h: 2, fill: C.line });
   items.forEach((item, i) => {

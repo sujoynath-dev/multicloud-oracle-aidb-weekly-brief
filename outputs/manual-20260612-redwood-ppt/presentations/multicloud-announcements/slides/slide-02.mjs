@@ -8,9 +8,9 @@ export async function slide02(presentation, ctx) {
 
   const rows = [
     ["AWS", "10 Jun 2026", "Oracle Database@AWS supports Autonomous Database Serverless.", "High", C.red],
-    ["Oracle", "9 Jun 2026", "OCI Generative AI adds import support for a Whisper-compatible model.", "Adjacent", C.amber],
-    ["Google Cloud", "6-12 Jun", "No new dated Oracle Database@Google Cloud item found in official release notes.", "Watch", C.teal],
-    ["Azure", "6-12 Jun", "No new official Oracle Database@Azure item found inside the week.", "Steady", C.blue],
+    ["OCI", "9-10 Jun 2026", "OCI GoldenGate adds Veridata; OCI Generative AI adds Whisper model import.", "Adjacent", C.amber],
+    ["Google Cloud", "9-15 Jun", "No new dated Oracle Database@Google Cloud item found; latest release note remains 27 May.", "Watch", C.teal],
+    ["Azure", "9-15 Jun", "No new official Oracle Database@Azure item found; availability page still shows 33 live regions.", "Steady", C.blue],
   ];
   const x = 72;
   const y = 220;
